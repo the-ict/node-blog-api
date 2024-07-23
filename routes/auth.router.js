@@ -3,7 +3,7 @@ const user_model = require("../models/user.model")
 const bcrypt = require("bcrypt")
 
 // REGISTER
-router.post("/REGISTER", async (req, res) => {
+router.post("/register", async (req, res) => {
     try {
         if (req.body.password) {
             // shifrlangan parol yaratish
